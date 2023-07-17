@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 exec(open('denoising_diffusion_pytorch/version.py').read())
 
 setup(
-  name = 'denoising-diffusion-pytorch',
+  name = 'editted-DDPM-package',
   packages = find_packages(),
   version = __version__,
   license='MIT',
